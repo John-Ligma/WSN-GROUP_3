@@ -1,0 +1,34 @@
+﻿Packet Type (pkt_type),Source ID (src_id),Relay/Via ID (via_id),Sequence Number (seq_num),Hop Count (hop_count),Temperature (C),Humidity (%RH),RSSI (dBm),Previous RTT (ms),,1-HOP SUMMARY (Node 2 -> GW),Value,Unit / Formula,KPI Status
+DATA,2,2,43,1,22.47,50.45,-47,4,,Sequence Range (seq_num),43..75,packets,-
+DATA,2,2,44,1,22.47,50.31,-45,11,,Expected Packets (max - min + 1),33,packets,-
+DATA,2,2,45,1,22.48,50.38,-46,6,,Valid Packets Received,33,packets,-
+DATA,2,2,46,1,22.48,50.54,-45,8,,Lost / Duplicate Packets,0 / 0,packets,PASS (0 duplicates)
+DATA,2,2,47,1,22.50,50.55,-45,7,,Packet Delivery Ratio (PDR),100.00%,(Received / Expected) * 100,PASS (>= 95%)
+DATA,2,2,48,1,22.47,50.22,-45,5,,Hop Count / Via Node,hop=1 / via=2,Direct 1-hop link,PASS
+DATA,2,2,49,1,22.47,50.05,-46,6,,Average RTT,6.85,ms (n=33 valid),PASS (<= 25 ms)
+DATA,2,2,50,1,22.46,50.32,-45,4,,Min / Max RTT,4 / 19,ms (timeouts=0),PASS (<= 25 ms)
+DATA,2,2,51,1,22.44,49.74,-45,6,,RTT Std Deviation (SD),3.87,ms,-
+DATA,2,2,52,1,22.40,49.66,-45,7,,Average RSSI (Min..Max),-45.42 (-51..-44),dBm (at Gateway),Strong signal
+DATA,2,2,53,1,22.42,49.73,-45,6,,Temperature Mean +/- SD,22.40 +/- 0.056,deg C (SHT30),High repeatability
+DATA,2,2,54,1,22.42,49.88,-44,6,,Humidity Mean +/- SD,50.13 +/- 0.228,%RH (SHT30),High repeatability
+DATA,2,2,55,1,22.40,49.98,-44,6,,Test Configuration,"ESP-NOW CH=1, AES-128","Period 5s, Packet 20B",-
+DATA,2,2,56,1,22.44,50.08,-47,4
+DATA,2,2,57,1,22.39,50.11,-46,16
+DATA,2,2,58,1,22.40,49.97,-45,19
+DATA,2,2,59,1,22.37,50.01,-45,5
+DATA,2,2,60,1,22.40,50.00,-44,4
+DATA,2,2,61,1,22.37,50.06,-44,5
+DATA,2,2,62,1,22.37,50.12,-46,4
+DATA,2,2,63,1,22.36,50.27,-51,4
+DATA,2,2,64,1,22.36,50.22,-45,4
+DATA,2,2,65,1,22.35,50.04,-46,7
+DATA,2,2,66,1,22.33,49.96,-47,4
+DATA,2,2,67,1,22.32,49.90,-45,5
+DATA,2,2,68,1,22.30,49.94,-46,9
+DATA,2,2,69,1,22.33,50.13,-45,4
+DATA,2,2,70,1,22.33,50.30,-46,5
+DATA,2,2,71,1,22.33,50.54,-45,16
+DATA,2,2,72,1,22.35,50.19,-44,4
+DATA,2,2,73,1,22.35,50.17,-44,4
+DATA,2,2,74,1,22.37,50.27,-45,12
+DATA,2,2,75,1,22.39,50.26,-46,9
